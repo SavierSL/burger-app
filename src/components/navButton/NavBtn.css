@@ -1,0 +1,58 @@
+.NavButton {
+  align-items: center;
+}
+
+.navList {
+  color: brown;
+  cursor: pointer;
+  font-weight: bold;
+  box-sizing: none;
+  display: inline-block;
+  margin-left: 0;
+}
+.navLists {
+  display: inline-block;
+  margin-right: 10px;
+  padding: 0 1rem;
+  height: 3.5rem;
+}
+.navLists:hover {
+  color: white;
+
+  background-color: rgb(190, 117, 0);
+  border-bottom: solid rgb(253, 199, 99);
+  transition-timing-function: ease-in-out;
+  transition: 0.2s;
+}
+
+@media (min-width: 450px) {
+  .navList {
+    display: inline;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  .navLists {
+    display: inline-block;
+  }
+  .navLists:hover {
+    background-color: rgb(190, 117, 0);
+    border-bottom: solid rgb(253, 199, 99);
+    transition-timing-function: ease-in-out;
+    transition: 0.2s;
+  }
+}
+
+@media (max-width: 450px) {
+  .DesktopOnly {
+    display: none;
+  }
+}
+.checkout {
+  color: white;
+  text-decoration: none;
+}
+
+.active {
+  color: white;
+}

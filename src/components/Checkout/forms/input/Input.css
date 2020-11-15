@@ -1,0 +1,29 @@
+.input-form {
+  width: 100%;
+  box-sizing: border-box;
+}
+.label-container {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 8px;
+}
+.input-text {
+  display: block;
+  align-items: center;
+  box-sizing: border-box;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid rgb(209, 209, 209);
+}
+.input-text:focus {
+  outline: none;
+  border: 1px solid white;
+  background: rgb(213, 213, 213);
+}
+.form {
+  width: 30rem;
+  margin: 0 auto;
+  text-align: center;
+}
